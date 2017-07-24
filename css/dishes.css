@@ -1,0 +1,160 @@
+.title {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(21, 27, 40);
+    font-weight: bold;
+    line-height: 1.757;
+    font-size: 3em;
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: 'Crimson Text', serif;
+    color: rgb(139, 144, 157);
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+#mian {
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.nav {
+    background-color: transparent;
+    padding-bottom: 40px;
+    height: auto;
+}
+
+.nav img {
+    margin-right: 20vw
+}
+
+#mian .nav-center>a.nav-item {
+    font-family: 'Roboto', sans-serif;
+    color: #151b28;
+    font-weight: bold;
+    line-height: 2.25;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+#main .nav-item a.is-tab:hover, a.nav-item.is-tab:hover {
+    border-bottom-color: transparent;
+    color: #d89b64 !important;
+}
+
+#main .nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {
+    border-bottom: 3px solid transparent;
+    color: #d89b64 !important;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 3rem 3rem;
+}
+
+.footer .icon {
+    transition: transform .7s;
+}
+
+.footer .icon:hover {
+    transform: scale(1.2);
+    transition: transform .7s;
+}
+
+.footer .title {
+    margin-top: 10vh;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(22, 27, 41);
+    font-weight: bold;
+    line-height: 2.004;
+}
+
+.footer .subtitle {
+    font-family: 'Crimson Text', serif;
+    color: rgb(139, 144, 157);
+    font-style: italic;
+    line-height: 2;
+}
+
+.footer .hr {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1em auto;
+}
+
+.footer .hr::before,
+.hr::after {
+    content: '';
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 0 .25em;
+    border-bottom: 1px solid #c3c6c7;
+}
+
+a.back-to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: #27AE61 url(../img/arrows.png) no-repeat center 43%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+#menu {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+
+#menu .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    text-transform: none;
+}
+
+#menu .card {
+    margin-bottom: 50px;
+}
+
+#menu .columns {
+    margin-top: 100px;
+}
+
+#menu .card-footer span {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(130, 156, 44);
+  font-weight: bold;
+  line-height: 1.175;
+    font-size: 2.5vw;
+    font-style: normal;
+}
+
+#menu .card-footer p {
+  font-family: 'Crimson Text', serif;
+    color: rgb(139, 144, 157);
+    font-style: italic;
+    line-height: 1.2;
+    font-size: 1vw;
+}
